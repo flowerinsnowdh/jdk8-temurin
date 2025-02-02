@@ -1,4 +1,4 @@
-# Maintainer: Faaris Ansari <faaris.ansari@pm.me>
+# Maintainer: matteodev <me@matteodev.xyz>
 # shellcheck disable=all
 
 pkgname=jdk8-temurin
