@@ -14,7 +14,7 @@ url="https://adoptium.net/"
 license=('custom')
 depends=('java-runtime-common>=3' 'java-environment-common' 'ca-certificates-utils' 'desktop-file-utils' 'libxrender' 'libxtst' 'alsa-lib')
 options=('!strip') # Disable stripping of binaries
-source=("https://github.com/adoptium/temurin8-binaries/releases/download/jdk${_jdkver}/OpenJDK${_majorver}U-jdk_x64_linux_hotspot_${pkgver}.tar.gz")
+source=("https://mirrors.nju.edu.cn/adoptium/${_majorver}/jdk/x64/linux/OpenJDK${_majorver}U-jdk_x64_linux_hotspot_${pkgver}.tar.gz")
 sha256sums=('9448308a21841960a591b47927cf2d44fdc4c0533a5f8111a4b243a6bafb5d27')
 replaces=("jdk${_majorver}-adoptopenjdk")                              # Replaces the old 'jdk8-adoptopenjdk' package
 install=install_jdk${_majorver}-temurin.sh                             # Script to be executed after package installation
